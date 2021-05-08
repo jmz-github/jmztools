@@ -1,4 +1,8 @@
 def number_to_letter(n):
+    """
+    :param n:
+    :return:
+    """
     d_n = n // 26
     s_n = n % 26
     def ntl_chr(i):
